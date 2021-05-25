@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+#parent {
+    flex-direction: column-reverse;
+}
+:host {
+    ::ng-deep .p-menubar {
+        background-image:none;
+        border:black;
+        border-radius: .5em;
+        border-style: solid;
+        background-color: #9bb0a0;
+    }    
+}
+#logo{
+    padding-right: 1em;
+    padding-left: 1em;
+    margin-top: 5px;
+}
+.center {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle
+}
