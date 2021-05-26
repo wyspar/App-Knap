@@ -8,18 +8,20 @@
         border:black;
         border-radius: .5em;
         border-style: solid;
+        max-height: 80px;
         background-color: #9bb0a0;
+        margin: 1em;
     }    
 }
 #logo{
-    padding-right: 1em;
-    padding-left: 1em;
     margin-top: 5px;
 }
-.center {
-    margin: auto;
-    width: 50%;
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle
+#logoText{
+    color: white;
+    font-size: 24px;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    // -webkit-text-stroke-width: .5px;
+    // -webkit-text-stroke-color: black;
+    word-wrap: none;
 }
