@@ -5,5 +5,6 @@ export interface Application{
     lastName: string,
     email: string,
     id: number,
-    location: Location
+    location: Location,
+    approved: boolean,
 }

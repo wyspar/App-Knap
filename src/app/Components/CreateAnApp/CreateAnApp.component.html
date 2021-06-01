@@ -1,0 +1,10 @@
+<div *ngIf="finishedLoading" class="center-screen">
+  <div class="centerInsideDiv">
+    <img [src]="location.logo" [alt]="location.name" onerror="this.onerror=null;this.src='../../assets/default.png';"/>
+    <p>{{location.name}}</p>
+    <p>{{location.address.city}},{{location.address.state}}</p>
+    <p-rating [ngModel]="location.rating" [readonly]="true" [cancel]="false"></p-rating>
+    <p></p>
+    <p></p>
+  </div>
+</div>

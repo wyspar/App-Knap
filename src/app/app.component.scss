@@ -2,23 +2,29 @@
 #parent {
     flex-direction: column-reverse;
 }
-:host {
-    ::ng-deep .p-menubar {
+:host ::ng-deep {
+     .p-menubar {
         background-image:none;
         border:black;
         border-radius: .5em;
         border-style: solid;
-        max-height: 80px;
+        max-height: 70px;
         background-color: #9bb0a0;
         margin: 1em;
-    }    
+    } 
+    
+    .p-button{
+        background-color:#B09BAB;
+        border-color: black;
+    }
 }
 #logo{
-    margin-top: 5px;
+    margin-top: 0px;
 }
 #logoText{
+    margin-top: 10px;
     color: white;
-    font-size: 24px;
+    font-size: 20px;
     font-family: Georgia, serif;
     font-weight: bold;
     // -webkit-text-stroke-width: .5px;

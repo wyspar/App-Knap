@@ -1,3 +1,20 @@
-<p>
-  Profile works!
-</p>
+<div *ngIf="finishedLoading" class="center-screen">
+  <!-- <h3>'s Profile</h3> -->
+  <div class="row align-items-center profile-header">
+    <div class="col-md-2 mb-3">
+      <img
+        [src]="authUser.picture"
+        alt="User's profile picture"
+        class="rounded-circle img-fluid profile-picture"
+      />
+    </div>
+    <div class="col-md text-center text-md-left">
+      <h2>{{ authUser.name }}</h2>
+      <p class="lead text-muted">{{ authUser.email }}</p>
+    </div>
+  </div>
+
+  <div class="row" *ngIf="profileJson">
+    <pre class="col-12 p-4">{{ profileJson }}</pre>
+  </div>
+</div>

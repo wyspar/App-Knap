@@ -1,3 +1,13 @@
+html, body {            
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+}  
+html, body{
+    background: linear-gradient(180deg, rgba(255,255,255,1) 50%, rgba(155, 176, 160,1) 90%);
+}
+
 #app-root{
     background-color: grey;
 }
@@ -15,3 +25,6 @@
     align-items: center;
     text-align: center;
   }
+* {
+    -webkit-box-sizing: border-box;
+}

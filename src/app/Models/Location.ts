@@ -7,4 +7,9 @@ export interface Location
     cost: number,
     rent: boolean,
     address: Address,
+    minMonths: number,
+    maxMonths: number,
+    rating: number,
+    website: string,
+    logo: string,
 }
